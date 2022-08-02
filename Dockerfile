@@ -1,6 +1,6 @@
 FROM java
 
-COPY ./target/spjwt*.jar /usr/app/spjwt.jar
+COPY ./target/SpJWT*.jar /usr/app/spjwt.jar
 
 WORKDIR /usr/app
 
